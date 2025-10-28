@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Greșeli și faulturi — Volei Info</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: url("https://i.simpalsmedia.com/point.md/news/thumbnails/large/b739df8eb120091f7bf73201a9d5d9e6.jpg") center/cover no-repeat;
+        }
+
+        .overlay-page {
+            background: rgba(0, 0, 0, 0.45);
+            min-height: 100vh;
+            padding: 60px 5%;
+        }
+
+        header.sub-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 40px;
+        }
+
+        a.back {
+            text-decoration: none;
+            color: #ffb347;
+            font-weight: 600;
+            font-size: 18px;
+            transition: all 0.3s ease;
+        }
+
+        a.back:hover {
+            color: #fff;
+            text-shadow: 0 0 10px #ff7b00;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 42px;
+            color: #ffb347;
+            text-shadow: 0 0 15px #ff7b00;
+            margin-bottom: 50px;
+        }
+
+        /* Grid modern pentru secțiuni */
+        .grid-sections {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .section-card {
+            background: linear-gradient(135deg, rgba(255,123,0,0.1), rgba(255,179,71,0.1));
+            border-radius: 20px;
+            padding: 30px;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 15px rgba(255,255,255,0.05);
+        }
+
+        .section-card:hover {
+            background: linear-gradient(135deg, #ff7b00, #ffb347);
+            color: #000;
+            box-shadow: 0 0 25px #ff9e2c;
+            transform: translateY(-8px);
+        }
+
+        h2 {
+            font-size: 28px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #fff;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.7;
+            color: #f0f0f0;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        footer a {
+            color: #ffb347;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        footer a:hover {
+            color: #fff;
+            text-shadow: 0 0 10px #ff7b00;
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 36px; }
+            h2 { font-size: 24px; }
+            .overlay-page { padding: 40px 5%; }
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay-page">
+        <header class="sub-header">
+            <a class="back" href="index.html">◀ Înapoi</a>
+            <h1>Greșeli / Faulturi</h1>
+            <div></div>
+        </header>
+
+        <main class="grid-sections">
+            <div class="section-card">
+                <h2>⚡ Atingerea fileului</h2>
+                <p>Un jucător nu poate atinge fileul în timpul acțiunii de joc.</p>
+            </div>
+
+            <div class="section-card">
+                <h2>👣 Pași greșiți la serviciu</h2>
+                <p>Dacă jucătorul in timpul servirii atinge terenul sau chiar linia ternului aceasta este considerat fault.</p>
+            </div>
+
+            <div class="section-card">
+                <h2>✋ Dublă atingere</h2>
+                <p>Două contacte succesive în același atac (exceptând prima apăsare în unele situații) pot fi sancționate ca dublă atingere.</p>
+            </div>
+        </main>
+
+        <footer>
+            <p><a href="index.html">🏠 Înapoi la acasă</a></p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Reguli de bază — Volei Info</title>
+
+    <!-- Font (idem celelalte pagini) -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Folosim stilul global și adăugăm doar ajustări specifice pentru această pagină -->
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* Background specific paginii reguli (în aceeași linie vizuală cu celelalte) */
+        body {
+            background: url("https://wallpapers.com/images/hd/volleyball-4k-bright-orange-sunset-abm145nfqiprnr0n.jpg") center/cover no-repeat;
+        }
+
+        .overlay-page {
+            background: rgba(0,0,0,0.55);
+            min-height: 100vh;
+            padding: 60px 5%;
+        }
+
+        header.sub-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 40px;
+        }
+
+        a.back {
+            text-decoration: none;
+            color: #ffb347;
+            font-weight: 600;
+            font-size: 18px;
+            transition: all 0.25s ease;
+        }
+
+        a.back:hover {
+            color: #fff;
+            text-shadow: 0 0 10px #ff7b00;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 42px;
+            color: #ffb347;
+            text-shadow: 0 0 15px #ff7b00;
+            margin-bottom: 30px;
+        }
+
+        /* Grid modern pentru regulile principale */
+        .grid-sections {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 28px;
+        }
+
+        .section-card {
+            background: linear-gradient(135deg, rgba(255,123,0,0.07), rgba(255,179,71,0.05));
+            border-radius: 18px;
+            padding: 26px;
+            transition: all 0.28s ease;
+            box-shadow: 0 0 18px rgba(0,0,0,0.35), 0 6px 18px rgba(255,179,71,0.03) inset;
+            border: 1px solid rgba(255,255,255,0.03);
+        }
+
+        .section-card:hover {
+            background: linear-gradient(135deg, #ff7b00, #ffb347);
+            color: #000;
+            transform: translateY(-8px);
+            box-shadow: 0 10px 30px rgba(255,123,0,0.18);
+        }
+
+        .section-card h2 {
+            font-size: 24px;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #fff;
+            text-shadow: 0 0 6px rgba(0,0,0,0.5);
+        }
+
+        .section-card p {
+            font-size: 16px;
+            line-height: 1.7;
+            color: #e9e9e9;
+        }
+
+        .note {
+            margin-top: 12px;
+            font-size: 14px;
+            color: #ffdca8;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        footer a {
+            color: #ffb347;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.25s;
+            background: rgba(255,255,255,0.03);
+            padding: 10px 18px;
+            border-radius: 10px;
+            border: 1px solid rgba(255,255,255,0.04);
+        }
+
+        footer a:hover {
+            color: #000;
+            background: linear-gradient(90deg,#ff7b00,#ffb347);
+            box-shadow: 0 8px 25px rgba(255,123,0,0.18);
+            transform: translateY(-3px);
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 36px; }
+            .overlay-page { padding: 36px 5%; }
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay-page">
+        <header class="sub-header">
+            <a class="back" href="index.html">◀ Înapoi</a>
+            <h1>Reguli de bază</h1>
+            <div></div>
+        </header>
+
+        <main class="grid-sections">
+            <div class="section-card">
+                <h2>🏟️ Dimensiuni teren</h2>
+                <p>Terenul oficial măsoară <strong>18 x 9 m</strong>, împărţit în două jumătăţi a câte <strong>9 x 9 m</strong>. Zona de atac (zona frontală) se întinde la 3 metri de la fileu. Înălţimea fileului: <strong>2,43 m</strong> (masculin) / <strong>2,24 m</strong> (feminin).</p>
+                <div class="note">Sursa regulilor: Federaţia internaţională (regulament de bază).</div>
+            </div>
+
+            <div class="section-card">
+                <h2>👥 Componența echipei</h2>
+                <p>Pe teren sunt 6 jucători activi. Echipa poate avea rezerve (schimbări permise în funcţie de regulamentul competiţiei). Un jucător de tip <strong>libero</strong> are reguli speciale (culoare tricou diferită, nu poate servi, ataca de pe linia din faţă etc.).</p>
+                <div class="note">Libero este folosit în special pentru stabilitate la recepţie şi apărare.</div>
+            </div>
+
+            <div class="section-card">
+                <h2>🎯 Seturi și punctaj</h2>
+                <p>Meciurile se joacă în general cel mai bine din 5 seturi. Primele patru seturi până la <strong>25 de puncte</strong> (diferenţă de 2), iar al cincilea set decisiv până la <strong>15 puncte</strong> (diferenţă de 2).</p>
+            </div>
+
+            <div class="section-card">
+                <h2>🔁 Rotații și ordine</h2>
+                <p>După câştigarea serviciului, jucătorii se rotesc în sensul acelor de ceasornic. Ordinea jucătorilor trebuie să fie respectată până la servirea mingii; nerespectarea ordinii se sancţionează.</p>
+                <div class="note">Ordinea se stabileşte în momentul servirii — poziţionarea după servire poate fi diferită, atâta vreme cât ordinea la momentul servirii rămâne corectă.</div>
+            </div>
+
+            <div class="section-card">
+                <h2>✋ Contactul cu mingea</h2>
+                <p>Fiecare echipă are drept la maximum <strong>trei atingeri</strong> înainte de a trimite mingea peste fileu (excepţie: blocajul nu este numărat ca atingere). Atingerea dublă se sancţionează dacă un jucător loveşte mingea consecutiv, cu excepţia primei manevre de primire în anumite situaţii.</p>
+            </div>
+
+            <div class="section-card">
+                <h2>🚫 Faulturi comune</h2>
+                <p>Exemple: atingerea fileului în timpul acţiunii, călcarea liniei de serviciu la servire, trecerea completă a mingii sub fileu sau lovirea mingii cu ambele mâini separată (dublă atingere).</p>
+            </div>
+        </main>
+
+        <footer>
+            <p><a href="index.html">🏠 Înapoi la acasă</a></p>
+        </footer>
+    </div>
+</body>
+</html>
