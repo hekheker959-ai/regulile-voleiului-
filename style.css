@@ -1,4 +1,4 @@
-/* ======== Stil general ======== */
+
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -12,7 +12,6 @@ body {
     min-height: 100vh;
 }
 
-/* ======== Bara laterală ======== */
 .sidebar {
     width: 280px;
     background: linear-gradient(180deg, #002766, #04102a);
@@ -38,7 +37,6 @@ body {
     letter-spacing: 1.5px;
 }
 
-/* ======== Meniu ======== */
 .sidebar ul {
     list-style: none;
     padding: 0;
@@ -77,7 +75,6 @@ body {
     line-height: 1.3;
 }
 
-/* ======== Submeniu ======== */
 .submenu {
     margin-top: 8px;
     margin-left: 15px;
@@ -102,7 +99,6 @@ body {
     color: #fff;
 }
 
-/* ======== Conținut principal ======== */
 .content {
     flex: 1;
     background: url("https://wallpapers.com/images/hd/volleyball-4k-bright-orange-sunset-abm145nfqiprnr0n.jpg") center/cover;
@@ -136,7 +132,6 @@ p {
     margin-top: 15px;
 }
 
-/* ======== Carduri ======== */
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
@@ -160,7 +155,6 @@ p {
     box-shadow: 0 0 20px #ff9e2c;
 }
 
-/* ======== Responsive ======== */
 @media (max-width: 900px) {
     .container {
         flex-direction: column;
