@@ -1,2 +1,2 @@
-# test-repo-for-credentials
+# regulile-voleiului-
 emanuel morari

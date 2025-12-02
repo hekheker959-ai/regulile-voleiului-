@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Reguli de bază — Volei Info</title>
 
-    <!-- Font (idem celelalte pagini) -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-
-    <!-- Folosim stilul global și adăugăm doar ajustări specifice pentru această pagină -->
     <link rel="stylesheet" href="style.css">
 
     <style>
-        /* Background specific paginii reguli (în aceeași linie vizuală cu celelalte) */
-        body {
-            background: url("https://wallpapers.com/images/hd/volleyball-4k-bright-orange-sunset-abm145nfqiprnr0n.jpg") center/cover no-repeat;
-        }
+       body {
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+        url("https://wallpapers.com/images/hd/volleyball-4k-bright-orange-sunset-abm145nfqiprnr0n.jpg") 
+        center/cover no-repeat fixed;
+    background-color: #041936;
+}
+
 
         .overlay-page {
             background: rgba(0,0,0,0.55);
@@ -35,7 +36,7 @@
             color: #ffb347;
             font-weight: 600;
             font-size: 18px;
-            transition: all 0.25s ease;
+            transition: 0.25s;
         }
 
         a.back:hover {
@@ -51,7 +52,6 @@
             margin-bottom: 30px;
         }
 
-        /* Grid modern pentru regulile principale */
         .grid-sections {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -62,8 +62,9 @@
             background: linear-gradient(135deg, rgba(255,123,0,0.07), rgba(255,179,71,0.05));
             border-radius: 18px;
             padding: 26px;
-            transition: all 0.28s ease;
-            box-shadow: 0 0 18px rgba(0,0,0,0.35), 0 6px 18px rgba(255,179,71,0.03) inset;
+            transition: 0.28s ease;
+            box-shadow: 0 0 18px rgba(0,0,0,0.35), 
+                        0 6px 18px rgba(255,179,71,0.03) inset;
             border: 1px solid rgba(255,255,255,0.03);
         }
 
@@ -101,22 +102,25 @@
             margin-top: 60px;
         }
 
-        footer a {
-            color: #ffb347;
-            text-decoration: none;
+        .back-home {
+            display: inline-block;
+            margin: 30px auto;
+            padding: 12px 22px;
+            background: rgba(255,255,255,0.08);
+            color: #fff;
+            font-size: 18px;
             font-weight: 600;
-            transition: 0.25s;
-            background: rgba(255,255,255,0.03);
-            padding: 10px 18px;
-            border-radius: 10px;
-            border: 1px solid rgba(255,255,255,0.04);
+            text-decoration: none;
+            border-radius: 12px;
+            transition: 0.3s ease;
+            box-shadow: 0 0 10px rgba(255,255,255,0.1);
         }
 
-        footer a:hover {
+        .back-home:hover {
+            background: linear-gradient(90deg, #ff7b00, #ffb347);
             color: #000;
-            background: linear-gradient(90deg,#ff7b00,#ffb347);
-            box-shadow: 0 8px 25px rgba(255,123,0,0.18);
-            transform: translateY(-3px);
+            transform: translateY(-6px);
+            box-shadow: 0 0 15px #ff7b00;
         }
 
         @media (max-width: 768px) {
@@ -127,6 +131,7 @@
 </head>
 <body>
     <div class="overlay-page">
+
         <header class="sub-header">
             <a class="back" href="index.html">◀ Înapoi</a>
             <h1>Reguli de bază</h1>
@@ -136,35 +141,35 @@
         <main class="grid-sections">
             <div class="section-card">
                 <h2>🏟️ Dimensiuni teren</h2>
-                <p>Terenul oficial măsoară <strong>18 x 9 m</strong>, împărţit în două jumătăţi a câte <strong>9 x 9 m</strong>. Zona de atac (zona frontală) se întinde la 3 metri de la fileu. Înălţimea fileului: <strong>2,43 m</strong> (masculin) / <strong>2,24 m</strong> (feminin).</p>
-                <div class="note">Sursa regulilor: Federaţia internaţională (regulament de bază).</div>
+                <p>Terenul oficial măsoară <strong>18 x 9 m</strong>...</p>
+                <div class="note">Sursa regulilor: Federaţia internaţională.</div>
             </div>
 
             <div class="section-card">
                 <h2>👥 Componența echipei</h2>
-                <p>Pe teren sunt 6 jucători activi. Echipa poate avea rezerve (schimbări permise în funcţie de regulamentul competiţiei). Un jucător de tip <strong>libero</strong> are reguli speciale (culoare tricou diferită, nu poate servi, ataca de pe linia din faţă etc.).</p>
-                <div class="note">Libero este folosit în special pentru stabilitate la recepţie şi apărare.</div>
+                <p>Pe teren sunt 6 jucători activi...</p>
             </div>
 
             <div class="section-card">
                 <h2>🎯 Seturi și punctaj</h2>
-                <p>Meciurile se joacă în general cel mai bine din 5 seturi. Primele patru seturi până la <strong>25 de puncte</strong> (diferenţă de 2), iar al cincilea set decisiv până la <strong>15 puncte</strong> (diferenţă de 2).</p>
+                <p>Se joacă cel mai bine din 5 seturi...</p>
             </div>
 
             <div class="section-card">
                 <h2>🔁 Rotații și ordine</h2>
-                <p>După câştigarea serviciului, jucătorii se rotesc în sensul acelor de ceasornic. Ordinea jucătorilor trebuie să fie respectată până la servirea mingii; nerespectarea ordinii se sancţionează.</p>
-                <div class="note">Ordinea se stabileşte în momentul servirii — poziţionarea după servire poate fi diferită, atâta vreme cât ordinea la momentul servirii rămâne corectă.</div>
+                <p>După câştigarea serviciului, jucătorii se rotesc...</p>
             </div>
 
             <div class="section-card">
                 <h2>✋ Contactul cu mingea</h2>
-                <p>Fiecare echipă are drept la maximum <strong>trei atingeri</strong> înainte de a trimite mingea peste fileu (excepţie: blocajul nu este numărat ca atingere). Atingerea dublă se sancţionează dacă un jucător loveşte mingea consecutiv, cu excepţia primei manevre de primire în anumite situaţii.</p>
+                <p>Echipa are max. trei atingeri...</p>
             </div>
+        </main>
 
         <footer>
-            <p><a href="index.html">🏠 Înapoi la acasă</a></p>
+            <a href="index.html" class="back-home">🏠 Înapoi acasă</a>
         </footer>
+
     </div>
 </body>
 </html>
