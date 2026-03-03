@@ -1,2 +1,0 @@
-# regulile-voleiului-
-emanuel morari

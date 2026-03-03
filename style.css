@@ -277,3 +277,22 @@ html, body {
     max-width: 100% !important;
     box-sizing: border-box;
 }
+/* SEARCH BOX */
+
+.search-box {
+
+  width: 100%;
+
+  padding: 10px;
+
+  margin-bottom: 15px;
+
+  border: none;
+
+  border-radius: 8px;
+
+  font-size: 14px;
+
+  outline: none;
+
+}
