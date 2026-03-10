@@ -3,62 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <meta name="description" content="Regulile și informațiile despre jocul de volei.">
   <title>Regulile Jocului de Volei</title>
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
 <div class="container">
-  <aside class="sidebar">
-
+  <aside class="sidebar" role="complementary" aria-label="Meniu navigare">
     <div class="logo">
-      <img src="https://cdn-icons-png.flaticon.com/256/6639/6639847.png">
-      <h2>Informații despre Volei</h2>
+      <img src="https://cdn-icons-png.flaticon.com/256/6639/6639847.png" alt="Logo volei" width="65" height="65">
+      <h2>Volei Info</h2>
+      <button class="theme-btn" id="toggleTheme" aria-label="Comută la mod întunecat">
+        🌙 Dark / ☀️ Light
+      </button>
     </div>
-
-    <nav>
-
-      <!-- Bara cautare -->
-      <input
-        type="text"
-        id="searchBox"
-        class="search-box"
-        placeholder="Caută în meniu..."
-      >
-
-      <ul></ul>
-
+    <nav aria-label="Meniu principal">
+      <label for="searchBox" class="sr-only">Caută în meniu</label>
+      <input type="search" id="searchBox" class="search-box"
+        placeholder="🔍 Caută în meniu..." autocomplete="off" spellcheck="false">
+      <ul role="list"></ul>
     </nav>
-
   </aside>
 
-  <main class="content">
-
+  <main class="content" id="main-content">
     <div class="overlay">
-
-      <h1>Regulile Jocului de Volei</h1>
-
+      <h1>🏐 Regulile Jocului de Volei</h1>
       <p>
-        <b>Voleiul</b> este un sport jucat de două echipe
-        a câte șase jucători.
+        <strong>Voleiul</strong> este un sport jucat de două echipe
+        a câte șase jucători, separate de un fileu.
+        Scopul este de a trimite mingea în terenul advers
+        fără ca aceasta să cadă în propriul teren.
       </p>
-
       <h2>De ce este popular?</h2>
-
-      <div class="cards"></div>
-
+      <div class="cards" role="list" aria-label="Beneficiile voleiului"></div>
     </div>
-
   </main>
-
 </div>
 
-
 <script src="script.js"></script>
-
 </body>
 </html>
